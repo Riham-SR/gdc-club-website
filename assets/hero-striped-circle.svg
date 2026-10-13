@@ -1,0 +1,78 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="333.538" height="325.896" viewBox="0 0 333.538 325.896" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Striped_Circle">
+<mask id="mask0_0_80" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="334" height="326">
+<g id="Ellipse 1">
+<use xlink:href="#stroke0_0_80" fill="#FCC13C"/>
+<mask id="stroke1_0_80" fill="white">
+<use xlink:href="#stroke0_0_80"/>
+</mask>
+<path d="M333.538 162.948C333.538 252.942 258.873 325.896 166.769 325.896C74.665 325.896 -4.61936e-06 252.942 -4.61936e-06 162.948C-4.61936e-06 72.9543 74.665 0 166.769 0C258.873 0 333.538 72.9543 333.538 162.948Z" stroke-width="2" stroke="#8CAF8A" mask="url(#stroke1_0_80)"/>
+</g>
+</mask>
+<g mask="url(#mask0_0_80)">
+<path id="Line 1" d="M171.48 -79.0051L171.48 336.595" stroke="#8CAF8A"/>
+<path id="Line 2" d="M180.745 -79.0051L180.745 336.595" stroke="#8CAF8A"/>
+<path id="Line 3" d="M189.168 -79.0051L189.168 336.595" stroke="#8CAF8A"/>
+<path id="Line 4" d="M199.275 -77.3592L199.275 338.241" stroke="#8CAF8A"/>
+<path id="Line 5" d="M208.54 -77.3592L208.54 338.241" stroke="#8CAF8A"/>
+<path id="Line 6" d="M216.963 -77.3592L216.963 338.241" stroke="#8CAF8A"/>
+<path id="Line 7" d="M227.07 -80.6511L227.07 334.949" stroke="#8CAF8A"/>
+<path id="Line 8" d="M236.335 -80.6511L236.335 334.949" stroke="#8CAF8A"/>
+<path id="Line 9" d="M244.758 -80.6511L244.758 334.949" stroke="#8CAF8A"/>
+<path id="Line 10" d="M254.865 -79.0051L254.865 336.595" stroke="#8CAF8A"/>
+<path id="Line 11" d="M264.13 -79.0051L264.13 336.595" stroke="#8CAF8A"/>
+<path id="Line 12" d="M272.552 -79.0051L272.552 336.595" stroke="#8CAF8A"/>
+<path id="Line 13" d="M61.9855 -75.7133L61.9854 339.886" stroke="#8CAF8A"/>
+<path id="Line 14" d="M71.2504 -75.7133L71.2504 339.886" stroke="#8CAF8A"/>
+<path id="Line 15" d="M79.6733 -75.7133L79.6733 339.886" stroke="#8CAF8A"/>
+<path id="Line 16" d="M89.7804 -74.0673L89.7804 341.532" stroke="#8CAF8A"/>
+<path id="Line 17" d="M99.0453 -74.0673L99.0453 341.532" stroke="#8CAF8A"/>
+<path id="Line 18" d="M107.468 -74.0673L107.468 341.532" stroke="#8CAF8A"/>
+<path id="Line 19" d="M117.575 -77.3592L117.575 338.241" stroke="#8CAF8A"/>
+<path id="Line 20" d="M126.84 -77.3592L126.84 338.241" stroke="#8CAF8A"/>
+<path id="Line 21" d="M135.263 -77.3592L135.263 338.241" stroke="#8CAF8A"/>
+<path id="Line 22" d="M145.37 -75.7133L145.37 339.886" stroke="#8CAF8A"/>
+<path id="Line 23" d="M154.635 -75.7133L154.635 339.886" stroke="#8CAF8A"/>
+<path id="Line 24" d="M163.058 -75.7133L163.058 339.886" stroke="#8CAF8A"/>
+<path id="Line 25" d="M280.975 -77.3592L280.975 338.241" stroke="#8CAF8A"/>
+<path id="Line 26" d="M290.24 -77.3592L290.24 338.241" stroke="#8CAF8A"/>
+<path id="Line 27" d="M298.663 -77.3592L298.663 338.241" stroke="#8CAF8A"/>
+<path id="Line 28" d="M308.77 -75.7133L308.77 339.886" stroke="#8CAF8A"/>
+<path id="Line 29" d="M318.035 -75.7133L318.035 339.886" stroke="#8CAF8A"/>
+<path id="Line 30" d="M326.458 -75.7133L326.458 339.886" stroke="#8CAF8A"/>
+<path id="Line 31" d="M336.565 -79.0051L336.565 336.595" stroke="#8CAF8A"/>
+<path id="Line 32" d="M345.83 -79.0051L345.83 336.595" stroke="#8CAF8A"/>
+<path id="Line 33" d="M354.252 -79.0051L354.252 336.595" stroke="#8CAF8A"/>
+<path id="Line 34" d="M364.36 -77.3592L364.36 338.241" stroke="#8CAF8A"/>
+<path id="Line 35" d="M373.625 -77.3592L373.625 338.241" stroke="#8CAF8A"/>
+<path id="Line 36" d="M382.047 -77.3592L382.047 338.241" stroke="#8CAF8A"/>
+<path id="Line 37" d="M-47.5092 -77.3592L-47.5092 338.241" stroke="#8CAF8A"/>
+<path id="Line 38" d="M-38.2444 -77.3592L-38.2444 338.241" stroke="#8CAF8A"/>
+<path id="Line 39" d="M-29.8217 -77.3592L-29.8217 338.241" stroke="#8CAF8A"/>
+<path id="Line 40" d="M-19.7145 -75.7133L-19.7145 339.886" stroke="#8CAF8A"/>
+<path id="Line 41" d="M-10.4495 -75.7133L-10.4495 339.886" stroke="#8CAF8A"/>
+<path id="Line 42" d="M-2.02675 -75.7133L-2.02677 339.886" stroke="#8CAF8A"/>
+<path id="Line 43" d="M8.08048 -79.0051L8.08046 336.595" stroke="#8CAF8A"/>
+<path id="Line 44" d="M17.3454 -79.0051L17.3453 336.595" stroke="#8CAF8A"/>
+<path id="Line 45" d="M25.7681 -79.0051L25.768 336.595" stroke="#8CAF8A"/>
+<path id="Line 46" d="M35.8752 -77.3592L35.8752 338.241" stroke="#8CAF8A"/>
+<path id="Line 47" d="M45.1401 -77.3592L45.1401 338.241" stroke="#8CAF8A"/>
+<path id="Line 48" d="M53.5629 -77.3592L53.5628 338.241" stroke="#8CAF8A"/>
+<path id="Line 49" d="M382.047 -77.3592L382.047 338.241" stroke="#8CAF8A"/>
+<path id="Line 50" d="M391.312 -77.3592L391.312 338.241" stroke="#8CAF8A"/>
+<path id="Line 51" d="M399.735 -77.3592L399.735 338.241" stroke="#8CAF8A"/>
+<path id="Line 52" d="M409.842 -75.7133L409.842 339.886" stroke="#8CAF8A"/>
+<path id="Line 53" d="M419.107 -75.7133L419.107 339.886" stroke="#8CAF8A"/>
+<path id="Line 54" d="M427.53 -75.7133L427.53 339.886" stroke="#8CAF8A"/>
+<path id="Line 55" d="M437.637 -79.0051L437.637 336.595" stroke="#8CAF8A"/>
+<path id="Line 56" d="M446.902 -79.0051L446.902 336.595" stroke="#8CAF8A"/>
+<path id="Line 57" d="M455.325 -79.0051L455.325 336.595" stroke="#8CAF8A"/>
+<path id="Line 58" d="M465.432 -77.3592L465.432 338.241" stroke="#8CAF8A"/>
+<path id="Line 59" d="M474.697 -77.3592L474.697 338.241" stroke="#8CAF8A"/>
+<path id="Line 60" d="M483.119 -77.3592L483.119 338.241" stroke="#8CAF8A"/>
+</g>
+</g>
+<defs>
+<path id="stroke0_0_80" d="M333.538 162.948C333.538 252.942 258.873 325.896 166.769 325.896C74.665 325.896 -4.61936e-06 252.942 -4.61936e-06 162.948C-4.61936e-06 72.9543 74.665 0 166.769 0C258.873 0 333.538 72.9543 333.538 162.948Z"/>
+</defs>
+</svg>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Graphic Design Club at St. Clair College brings creative minds together to share ideas, develop skills and explore new possibilities in design." />
+    <title>Graphic Design Club | St. Clair College</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <main id="main-content">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero__inner">
+          <div class="hero__art" aria-hidden="true">
+            <span class="hero__griffin-frame">
+              <img class="hero__griffin" src="assets/hero-griffin.png" alt="" />
+            </span>
+            <img class="hero__spiral" src="assets/hero-spiral.png" alt="" />
+            <img class="hero__stripes" src="assets/hero-striped-circle.svg" alt="" />
+          </div>
+          <div class="hero__wash" aria-hidden="true"></div>
+
+          <header class="site-header">
+            <a class="site-header__brand" href="#home" aria-label="Graphic Design Club home">
+              <img class="site-header__logo-image" src="assets/gdc-official-full-logo.svg" alt="Graphic Design Club" width="188" height="43" style="display:block;width:188px;height:43px;max-width:188px;max-height:43px;object-fit:contain;object-position:left center;" />
+            </a>
+            <nav class="desktop-nav" aria-label="Main navigation">
+              <a href="#activities">Services</a>
+              <a href="#about">About</a>
+              <a href="#featured">Featured</a>
+              <a href="#tutorials">Tutorials</a>
+              <a href="#footer">Contact</a>
+            </nav>
+            <a class="profile-link" href="#join" aria-label="Join the Graphic Design Club">
+              <img src="assets/profile-icon.svg" alt="" />
+            </a>
+            <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+              <span aria-hidden="true">☰</span>
+            </button>
+            <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden>
+              <a href="#about">About</a>
+              <a href="#featured">Featured Work</a>
+              <a href="#tutorials">Tutorials</a>
+              <a href="#activities">Club Activities</a>
+              <a href="#join">Get Involved</a>
+            </nav>
+          </header>
+
+          <div class="hero__copy">
+            <h1 id="hero-title">Great Brand<br />Starts Here</h1>
+            <p>Turning your ideas into clean, engaging visual experiences.</p>
+            <span class="hero__magnet"><a class="button button--dark" href="#activities">Explore Services</a></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="about paper-section" id="about" aria-labelledby="about-title">
+        <div class="section-shell">
+          <p class="eyebrow about__eyebrow">ABOUT THE CLUB</p>
+          <h2 class="about__title" id="about-title">Where Creativity<br />Meets Community</h2>
+          <p class="about__description">The Graphic Design Club at St. Clair College brings creative minds together to share ideas, develop skills and explore new possibilities in design.</p>
+          <img class="about__artwork" src="assets/about-artwork.png" alt="A graphic design workspace with a laptop, camera, drawing tablet, and colour swatches" />
+        </div>
+      </section>
+
+      <section class="featured paper-section" id="featured" aria-labelledby="featured-title">
+        <div class="section-shell">
+          <p class="eyebrow featured__eyebrow">FEATURED CONTENT</p>
+          <h2 class="featured__title" id="featured-title">Selected Work</h2>
+          <p class="featured__intro">A curated space for student creativity, experimentation, and design exploration.</p>
+          <div class="featured__project" aria-label="Student project feature panel">
+            <p>STUDENT PROJECT&nbsp; / &nbsp;FEATURE 01</p>
+          </div>
+          <img class="featured__rhombus" src="assets/featured-rhombus.png" alt="" aria-hidden="true" />
+          <div class="featured__details">
+            <p class="eyebrow">STUDENT WORK&nbsp; / &nbsp;GRAPHIC DESIGN</p>
+            <h3>Student Project<br />Spotlight</h3>
+            <p>An editorial spotlight celebrating creative thinking, visual storytelling, and the design process behind student work at St. Clair College.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="tutorials" id="tutorials" aria-labelledby="tutorials-title">
+        <div class="section-shell">
+          <p class="eyebrow tutorials__eyebrow">LEARN &amp; EXPLORE</p>
+          <h2 class="tutorials__title" id="tutorials-title">Ideas to Grow With</h2>
+          <p class="tutorials__intro">Practical tutorials, useful resources, and creative experiments for curious designers.</p>
+          <div class="tutorial-grid">
+            <article class="tutorial-card">
+              <div class="tutorial-card__art type-art" aria-hidden="true">
+                <span class="type-art__aa">Aa</span>
+                <span class="type-art__amp">&amp;</span>
+                <span class="type-art__question">?</span>
+              </div>
+              <p class="tutorial-card__category">TUTORIAL</p>
+              <h3>Typography Essentials</h3>
+              <p class="tutorial-card__description">Explore hierarchy, type pairing, and the fundamentals of expressive layouts.</p>
+            </article>
+            <article class="tutorial-card">
+              <div class="tutorial-card__art palette-art" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <p class="tutorial-card__category">DESIGN RESOURCE</p>
+              <h3>Building a Colour Palette</h3>
+              <p class="tutorial-card__description">Learn how to turn colour inspiration into expressive palettes that give every design its own personality.</p>
+            </article>
+            <article class="tutorial-card">
+              <div class="tutorial-card__art tutorial-card__art--image">
+                <img src="assets/tutorial-3d-artwork.svg" alt="" />
+              </div>
+              <p class="tutorial-card__category">CREATIVE EXPERIMENT</p>
+              <h3>Beyond the Flat: Exploring 3D Design</h3>
+              <p class="tutorial-card__description">Discover how 3D shapes, materials, lighting, and motion can transform ordinary graphics into immersive visual experiences.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="activities" id="activities" aria-labelledby="activities-title">
+        <div class="section-shell">
+          <p class="eyebrow activities__eyebrow">CLUB ACTIVITIES</p>
+          <h2 class="activities__title" id="activities-title">Explore the Club</h2>
+          <p class="activities__intro">Scroll through the ways we create, collaborate, and grow together.</p>
+
+          <div class="activity-carousel" aria-roledescription="carousel" aria-label="Club activities">
+            <div class="activity-carousel__track">
+              <article class="activity-slide activity-slide--plum" aria-label="Slide 1 of 3">
+                <p class="activity-slide__number">01</p>
+                <p class="activity-slide__eyebrow">CLUB ACTIVITIES</p>
+                <h3>Creative<br />Workshops</h3>
+                <p class="activity-slide__description">Hands-on sessions to learn new tools, explore techniques, and build real design skills together.</p>
+                <a class="activity-slide__cta" href="#tutorials">Learn More&nbsp;&nbsp; ↗</a>
+                <img class="activity-slide__artwork" src="assets/activity-workshops.png" alt="" />
+                <div class="activity-progress" aria-hidden="true">
+                  <span class="activity-progress__rail"></span><span class="activity-progress__active"></span>
+                  <span class="activity-progress__step activity-progress__step--one">01</span>
+                  <span class="activity-progress__step activity-progress__step--two">02</span>
+                  <span class="activity-progress__step activity-progress__step--three">03</span>
+                </div>
+              </article>
+              <article class="activity-slide activity-slide--teal" aria-label="Slide 2 of 3">
+                <p class="activity-slide__number">02</p>
+                <p class="activity-slide__eyebrow">CLUB ACTIVITIES</p>
+                <h3>Design<br />Challenges</h3>
+                <p class="activity-slide__description">Creative prompts that push ideas further. Experiment, collaborate, and share the unexpected.</p>
+                <a class="activity-slide__cta" href="#tutorials">Learn More&nbsp;&nbsp; ↗</a>
+                <img class="activity-slide__artwork" src="assets/activity-challenges.png" alt="" />
+                <div class="activity-progress" aria-hidden="true">
+                  <span class="activity-progress__rail"></span><span class="activity-progress__active"></span>
+                  <span class="activity-progress__step activity-progress__step--one">01</span>
+                  <span class="activity-progress__step activity-progress__step--two">02</span>
+                  <span class="activity-progress__step activity-progress__step--three">03</span>
+                </div>
+              </article>
+              <article class="activity-slide activity-slide--yellow" aria-label="Slide 3 of 3">
+                <p class="activity-slide__number">03</p>
+                <p class="activity-slide__eyebrow">CLUB ACTIVITIES</p>
+                <h3>Portfolio<br />Reviews</h3>
+                <p class="activity-slide__description">Present your work, hear fresh perspectives, and refine your creative voice together.</p>
+                <a class="activity-slide__cta" href="#featured">Learn More&nbsp;&nbsp; ↗</a>
+                <img class="activity-slide__artwork" src="assets/activity-reviews.png" alt="" />
+                <div class="activity-progress" aria-hidden="true">
+                  <span class="activity-progress__rail"></span><span class="activity-progress__active"></span>
+                  <span class="activity-progress__step activity-progress__step--one">01</span>
+                  <span class="activity-progress__step activity-progress__step--two">02</span>
+                  <span class="activity-progress__step activity-progress__step--three">03</span>
+                </div>
+              </article>
+            </div>
+            <div class="activity-carousel__controls">
+              <button class="carousel-button" type="button" data-carousel-previous aria-label="Previous activity">‹</button>
+              <button class="carousel-button" type="button" data-carousel-next aria-label="Next activity">›</button>
+              <p class="carousel-status" aria-live="polite">01 / 03&nbsp;&nbsp; ━━━━━━━</p>
+            </div>
+          </div>
+
+          <div class="activity-cards">
+            <article class="activity-card activity-card--plum">
+              <p class="activity-card__count">01&nbsp; / &nbsp;03</p>
+              <h3>Creative Workshops</h3>
+              <p>Learn new techniques, experiment with ideas, and create together.</p>
+              <a href="#tutorials">EXPLORE&nbsp; ↗</a>
+              <img src="assets/activity-workshops.png" alt="" />
+            </article>
+            <article class="activity-card activity-card--teal">
+              <p class="activity-card__count">02&nbsp; / &nbsp;03</p>
+              <h3>Design Challenges</h3>
+              <p>Challenge yourself with creative prompts and fresh perspectives.</p>
+              <a href="#tutorials">EXPLORE&nbsp; ↗</a>
+              <img src="assets/activity-challenges.png" alt="" />
+            </article>
+            <article class="activity-card activity-card--yellow">
+              <p class="activity-card__count">03&nbsp; / &nbsp;03</p>
+              <h3>Portfolio Reviews</h3>
+              <p>Share your work, get feedback, and strengthen your portfolio.</p>
+              <a href="#featured">EXPLORE&nbsp; ↗</a>
+              <img src="assets/activity-reviews.png" alt="" />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="upcoming paper-section" id="upcoming-events" aria-labelledby="upcoming-title">
+        <div class="section-shell upcoming__inner">
+          <div class="upcoming__heading">
+            <div>
+              <p class="eyebrow upcoming__eyebrow">WHAT'S NEXT AT GDC</p>
+              <h2 id="upcoming-title">Upcoming<br />Events<span class="upcoming__dot">.</span></h2>
+            </div>
+            <p class="upcoming__intro">New ideas start when we get together. Explore what's coming up and find your next creative opportunity.</p>
+          </div>
+          <div class="upcoming__cards">
+            <article class="event-card event-card--plum">
+              <div class="event-card__top"><span class="event-card__number">01 / 03</span><span class="event-card__tag">WORKSHOP</span></div>
+              <div class="event-card__symbol" aria-hidden="true">✳</div>
+              <div class="event-card__content">
+                <p class="event-card__date">DATE TO BE ANNOUNCED</p>
+                <h3>Creative<br />Lab Sessions</h3>
+                <p>Experiment with new techniques, share ideas, and make something unexpected.</p>
+                <a href="#join" aria-label="Get involved in Creative Lab Sessions">GET INVOLVED <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="event-card event-card--teal">
+              <div class="event-card__top"><span class="event-card__number">02 / 03</span><span class="event-card__tag">CHALLENGE</span></div>
+              <div class="event-card__symbol event-card__symbol--rings" aria-hidden="true">◎</div>
+              <div class="event-card__content">
+                <p class="event-card__date">DATE TO BE ANNOUNCED</p>
+                <h3>Design<br />Sprint</h3>
+                <p>Take on a creative brief, think fast, and turn a bold concept into a design.</p>
+                <a href="#join" aria-label="Get involved in Design Sprint">GET INVOLVED <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="event-card event-card--yellow">
+              <div class="event-card__top"><span class="event-card__number">03 / 03</span><span class="event-card__tag">COMMUNITY</span></div>
+              <div class="event-card__symbol event-card__symbol--spark" aria-hidden="true">✦</div>
+              <div class="event-card__content">
+                <p class="event-card__date">DATE TO BE ANNOUNCED</p>
+                <h3>Portfolio<br />Meetup</h3>
+                <p>Bring your work, exchange feedback, and connect with fellow designers.</p>
+                <a href="#join" aria-label="Get involved in Portfolio Meetup">GET INVOLVED <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+          <p class="upcoming__note">EVENT CONCEPTS · DATES AND DETAILS TO BE CONFIRMED</p>
+        </div>
+      </section>
+
+      <section class="join paper-section" id="join" aria-labelledby="join-title">
+        <div class="section-shell">
+          <div class="join__art" aria-hidden="true">
+            <img src="assets/get-involved-icon.png" alt="" />
+            <span class="join__shape join__shape--teal"></span>
+            <span class="join__shape join__shape--yellow"></span>
+            <span class="join__shape join__shape--plum"></span>
+          </div>
+          <p class="eyebrow join__eyebrow">YOUR NEXT CREATIVE CHAPTER</p>
+          <h2 id="join-title">Get Involved<br />Make Your Mark</h2>
+          <p class="join__description">Connect with fellow creatives, join hands-on design activities,<br />and bring your ideas to life. Everyone has something to contribute.</p>
+          <a class="button button--plum join__button" href="#footer">Join the Club&nbsp; ↗</a>
+          <a class="join__activities-link" href="#activities">Explore Activities&nbsp; →</a>
+          <p class="join__signature">ST. CLAIR COLLEGE&nbsp; / &nbsp;GRAPHIC DESIGN CLUB</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="section-shell">
+        <div class="footer__top-rule"></div>
+        <p class="footer__eyebrow">ST. CLAIR COLLEGE</p>
+        <h2 class="footer__brand">Graphic Design<br />Club</h2>
+        <p class="footer__description">A space to create, collaborate, learn, and grow<br />with fellow designers at St. Clair College.</p>
+        <nav class="footer__navigation" aria-label="Footer navigation">
+          <h3>EXPLORE</h3>
+          <a href="#about">About</a>
+          <a href="#featured">Featured Work</a>
+          <a href="#tutorials">Tutorials</a>
+          <a href="#activities">Club Activities</a>
+              <a href="#upcoming-events">Upcoming Events</a>
+              <a href="#join">Get Involved</a>
+        </nav>
+        <nav class="footer__participation" aria-label="Get connected">
+          <h3>GET CONNECTED</h3>
+          <a href="#join">Join the Club</a>
+          <a href="#activities">Explore Activities</a>
+        </nav>
+        <div class="footer__bottom-rule"></div>
+        <p class="footer__copyright">© 2026 Graphic Design Club · St. Clair College</p>
+        <a class="footer__signoff" href="#home">MADE TO CREATE&nbsp; ↗</a>
+      </div>
+    </footer>
+  </body>
+</html>

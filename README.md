@@ -1,40 +1,24 @@
-# Graphic Design Club — GRD 509
+# Graphic Design Club Website
 
-Responsive single-page HTML/CSS/JavaScript project for St. Clair College.
+Responsive single-page website for the Graphic Design Club at St. Clair College.
 
-## Submission links
+## Preview
 
-- [Figma design system and responsive design](https://www.figma.com/design/T8HZRCspMMC1crtF2xRXg8/GRD-Club?node-id=87-8&t=wcBf1IW6LSE7QOIo-1)
-- [Process documentation (PDF)](GDC_Process_Documentation.pdf)
-- [Process documentation (PowerPoint)](GDC_Process_Documentation.pptx)
+Open `index.html` in a browser. The project uses plain HTML, CSS, and a small amount of JavaScript; it has no package or build step.
 
-## Run the website
+## Project files
 
-Download the repository using **Code → Download ZIP**, extract it, and open `index.html` in a browser. No npm packages or build step are required.
+- `index.html` contains the page structure and content.
+- `css/styles.css` contains the design tokens and responsive styling.
+- `js/main.js` controls the mobile navigation and the desktop activity-panel controls.
+- `assets/` contains the original Figma artwork, logos, and icons used by the page.
 
-Alternatively, open this folder in Visual Studio Code and use Live Server, or run:
+## Outstanding items
 
-```sh
-python3 -m http.server 8000
-```
-
-Then visit http://localhost:8000. Internet access is needed to load Google Fonts; fallback fonts are available.
-
-## Project structure
-
-- `index.html`: semantic page structure
-- `css/style.css`: styles, CSS variables, reusable patterns and responsive layouts
-- `js/script.js`: mobile menu, activity carousel and motion with reduced-motion support
-- `assets/`: artwork and logos
-
-## Page sections
-
-Hero, About, Featured Content, three tutorial/content cards, Club Activities, Upcoming Events, Get Involved and Footer.
-
-## Upcoming Events system test
-
-The additional section reuses the site's colour variables, typography, section shell, card variants, spacing conventions and CTA patterns. Event dates are labelled as concepts to be confirmed.
-
-## Review sizes
-
-Desktop: 1440px · Tablet: 768px · Mobile: 390px.
+- Confirm whether the hero heading should remain “Greate Brand Starts Here” or be corrected.
+- Confirm Services wording and destinations for Services, Contact, Join the Club, Learn More, and event actions.
+- Event dates are intentionally shown as “Date to be announced.”
+- The exact activity carousel behavior and intermediate responsive breakpoints are not specified in the reference; the implementation uses a scrollable desktop track and stacked narrow-screen panels.
+- The activity-panel illustrations and some tutorial artwork are CSS-built approximations; an exact matching exported composite asset was not available in the downloaded assets.
+- The original animated Figma GIFs are large (approximately 9 MB, 7 MB, and 22 MB). They are retained to preserve the supplied artwork; consider replacing them with optimized exports before production.
+- Inter and Manrope are requested from Google Fonts at runtime; use local font files if offline hosting is required.
